@@ -19,7 +19,7 @@ class checker {
         System.out.print("Введите число");
         int number = scanner.nextInt();
 
-        if (number % 2 !=0) {
+        if (number % 2 ==0) {
             System.out.println("четное");
         } else {
             System.out.println("нечетное");
